@@ -1,13 +1,13 @@
 {
   "name": "ataturk-resimleri-api",
   "version": "1.0.0",
-  "description": "",
+  "description": "Atatürk'ün resimleri ile oluşturulmuş bir JSON API.",
   "main": "app.js",
   "scripts": {
     "start": "node app.js"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Orhan Emre",
+  "license": "Apache License 2.0",
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.17.1"
