@@ -28,4 +28,7 @@ app.get("/:id/resim", (req, res) => {
     res.status(200).send(`<img style="width: 50%;" src="/images/${req.params.id}.png" alt="ataturk"></img><style>body{background-color: red; margin: 0px; background: #0e0e0e; display: grid; place-items: center;</style>`);
 });
 
-app.listen(8080);
+const PORT = process.env.PORT || 3000;
+app.listen(PORT, () => {
+  console.warn(`App listening on http://localhost:${PORT}`);
+});
