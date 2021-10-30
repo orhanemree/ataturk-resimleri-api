@@ -12,8 +12,8 @@ GET https://ataturk-resimleri-api.herokuapp.com/
 
 ```json
 {
-    "id": 50,
-    "image":"https://github.com/orhanemree/ataturk-resimleri-api/blob/main/public/images/50.png"
+    "id":69,
+    "image":"https://ataturk-resimleri-api.herokuapp.com/images/69.png"
 }
 ```
 
@@ -37,8 +37,8 @@ GET https://ataturk-resimleri-api.herokuapp.com/75
 
 ```json
 {
-    "id": 75,
-    "image":"https://github.com/orhanemree/ataturk-resimleri-api/blob/main/public/images/75.png"
+    "id":75,
+    "image":"https://ataturk-resimleri-api.herokuapp.com/images/75.png"
 }
 ```
 <br>
